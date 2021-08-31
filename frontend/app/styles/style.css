@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.comment-table-container > div {
+    box-shadow: none!important;
+}
+
+.react-responsive-modal-modal.loading {
+    padding: 0;
+    overflow: hidden;
+    box-shadow: none;
+    background: transparent!important;
+}
+
+.react-responsive-modal-modal.loading .react-responsive-modal-closeButton {
+    display: none;
+}
+
+.react-responsive-modal-closeButton {
+    outline: 0!important;
+}
+
+.table-custom-search.bg-gray-100.rounded-lg {
+    background-color: transparent!important;
+    border-radius: 0.25rem !important;
+}
+
+.table-custom-header.bg-yellow-50  {
+    background-color: transparent!important;
+}
